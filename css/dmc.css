@@ -500,7 +500,7 @@ header nav .nestedLink:hover {
   }
   .meli {
     position: absolute;
-    bottom: 15%;
+    bottom: 20%;
     left: 50%;
     z-index: 22;
     transform: translateX(-50%);
@@ -1042,9 +1042,10 @@ header nav .toggleMenu .liThreeHover {
 }
 
 #donationLinkLast {
-  color: var(--whiteColor);
+  color: white;
   background-color: var(--hoverColor);
 }
+
 /* //////////////////////////start loader /////////////////////////////////////////// */
 
 .loadpage {
@@ -1205,6 +1206,7 @@ header nav .toggleMenu .liThreeHover {
 }
 .callcenter {
   transform: rotate(225deg);
+  opacity: 0;
 }
 .callcenterh {
   transform: rotate(100deg);
