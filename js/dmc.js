@@ -65,7 +65,7 @@ window.onload = function () {
         clearInterval(x);
       }
     }, 100);
-  }, 1600);
+  }, 1900);
 
   setTimeout(function () {
     let y = setInterval(function () {
@@ -76,7 +76,7 @@ window.onload = function () {
         clearInterval(y);
       }
     }, 100);
-  }, 4100);
+  }, 4400);
   ////////////////////////////////
   setTimeout(function () {
     let dmcName = document.querySelector(".dmcName");
