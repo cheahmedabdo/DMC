@@ -43,7 +43,7 @@ window.addEventListener("scroll", function () {
 let i = 0;
 let k = 0;
 
-let welcomeTextAr = "فريق لجنة الدلنجات الطبيه";
+let welcomeTextAr = "فريق لجنة الدلنجات الطبية";
 let myWelcomeSpanAr = document.getElementById("welcomeTextAr");
 let welcomeTextEn = "Delengat Medical Committee";
 let myWelcomeSpanEn = document.getElementById("welcomeTextEn");
