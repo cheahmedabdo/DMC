@@ -1624,7 +1624,7 @@ header nav .toggleMenu .liThreeHover {
   border: 4px solid var(--vLightColor);
   border-width: 10px 10px 30px 10px;
   border-style: solid;
-  background-image: url(../images/convoys3-img1.jpg);
+  background-image: url(../images/convoys3-img1.webp);
   z-index: -22;
   background-size: contain;
   box-shadow: -4px 4px 4px var(--dropShadowh);
@@ -1641,7 +1641,7 @@ header nav .toggleMenu .liThreeHover {
   border-width: 10px 10px 30px 10px;
   border-style: solid;
   border-color: var(--vLightColor);
-  background-image: url(../images/convoys1-img2.jpg);
+  background-image: url(../images/convoys1-img2.webp);
   z-index: -22;
   background-size: contain;
   box-shadow: -4px 4px 4px var(--dropShadowh);
