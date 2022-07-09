@@ -42,7 +42,7 @@ function startcount(el) {
 /////////////myThumb
 
 let myThumb = document.querySelectorAll(".thumbnail img");
-myThumb.forEach((thumb) => {
+ myThumb.forEach((thumb) => {
   thumb.onclick = () => {
     thumb.parentElement.parentElement.children[0].children[0].src = thumb.src;
   };
