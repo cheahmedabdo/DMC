@@ -1608,6 +1608,7 @@ header nav .toggleMenu .liThreeHover {
 }
 .frame {
   width: 92%;
+  max-width: 650px;
   justify-content: center;
   align-items: center;
   min-width: 270px;
