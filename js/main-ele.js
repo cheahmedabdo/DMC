@@ -40,6 +40,7 @@ window.addEventListener("scroll", () => {
 // dark mode btn
 let audio1 = document.querySelector(".myAudio1");
 let audio2 = document.querySelector(".myAudio2");
+
 let btn1 = document.querySelector(".fa-sun");
 let btn2 = document.querySelector(".fa-moon");
 let myHtml = document.querySelector(".color");

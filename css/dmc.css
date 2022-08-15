@@ -23,7 +23,7 @@ html {
   --dropShadowh: #0000007a;
 }
 
-.sun {
+/* .sun {
   --blackColor: #21252a;
   --whiteColor: white;
   --hoverColor: #018baa;
@@ -37,7 +37,7 @@ html {
     rgba(224, 224, 224, 1) 0%,
     rgba(103, 179, 194, 1) 100%
   );
-}
+} */
 .moon {
   --scrollBg: #393939;
   --scrollBgThumb: #5c5c5c;
