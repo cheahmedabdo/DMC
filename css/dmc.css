@@ -15,7 +15,7 @@ html {
   --footerBg: #0e0e11;
   --midDuration: 0.5s;
   --smallDuration: 0.3s;
-  --longDuration: 1s;
+  --longDuration: 0.7s;
   --headerHeight: 70px;
   --firstLogoColor: #018baa;
   --secondLogoColor: #4d6466;
@@ -23,21 +23,6 @@ html {
   --dropShadowh: #0000007a;
 }
 
-/* .sun {
-  --blackColor: #21252a;
-  --whiteColor: white;
-  --hoverColor: #018baa;
-  --lightColor: #a3afb6;
-  --vLightColor: #f5f5f5;
-  --scrollBg: #ededed;
-  --scrollBgThumb: #c9c9c9;
-  --scrollBgHover: #bdbdbd;
-  --wBg: linear-gradient(
-    180deg,
-    rgba(224, 224, 224, 1) 0%,
-    rgba(103, 179, 194, 1) 100%
-  );
-} */
 .moon {
   --scrollBg: #393939;
   --scrollBgThumb: #5c5c5c;
@@ -95,6 +80,7 @@ html {
 ::-webkit-scrollbar-thumb {
   background: var(--scrollBgThumb);
   border-radius: 20px;
+  height: 70px;
 }
 ::-webkit-scrollbar-thumb:hover {
   background: var(--scrollBgHover);
@@ -385,14 +371,12 @@ header nav .nestedUl li:hover:after {
 header nav .nestedLink {
   color: var(--lightColor);
   text-decoration: none;
-  font-size: 16px;
-  transition: var(--smallDuration);
-  position: relative;
-  padding: 10px;
+  transition: var(--midDuration);
+  display: block;
 }
 header nav .nestedLink:hover {
   color: var(--hwhiteColor);
-  font-size: 20px;
+  transform: scale(1.1);
 }
 
 @media (max-width: 767px) {
@@ -405,7 +389,7 @@ header nav .nestedLink:hover {
     background: var(--hblackColor);
     right: 100%;
     padding: 10px;
-    height: 100vh;
+    height: 148vh;
     transition: var(--longDuration);
   }
   header nav .navUlH {
@@ -887,6 +871,7 @@ header nav .toggleMenu .liThreeHover {
 
 .projectBox img {
   width: 100%;
+  object-fit: contain;
 }
 .ourProjects .projectBox:hover img {
   filter: grayscale(1);
@@ -1496,7 +1481,6 @@ header nav .toggleMenu .liThreeHover {
 .pconvert {
   margin-top: 50px;
   display: flex;
-  align-items: center;
   gap: 50px;
   flex-wrap: wrap;
   justify-content: center;
