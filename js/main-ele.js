@@ -119,7 +119,10 @@ window.onscroll = function () {
 
   let upreveal = document.querySelectorAll(".uReveal");
   upreveal.forEach(function (e) {
-    if (e.getBoundingClientRect().top < 650) {
+    if (
+      e.getBoundingClientRect().top - document.documentElement.clientHeight <
+      -100
+    ) {
       e.classList.add("reveal");
     } else {
       e.classList.remove("reveal");
@@ -128,7 +131,10 @@ window.onscroll = function () {
 
   let downreveal = document.querySelectorAll(".dReveal");
   downreveal.forEach(function (e) {
-    if (e.getBoundingClientRect().top < 650) {
+    if (
+      e.getBoundingClientRect().top - document.documentElement.clientHeight <
+      -100
+    ) {
       e.classList.add("reveal");
     } else {
       e.classList.remove("reveal");
@@ -136,7 +142,10 @@ window.onscroll = function () {
   });
   let rightreveal = document.querySelectorAll(".rReveal");
   rightreveal.forEach(function (e) {
-    if (e.getBoundingClientRect().top < 650) {
+    if (
+      e.getBoundingClientRect().top - document.documentElement.clientHeight <
+      -100
+    ) {
       e.classList.add("reveal");
     } else {
       e.classList.remove("reveal");
@@ -144,7 +153,10 @@ window.onscroll = function () {
   });
   let leftreveal = document.querySelectorAll(".lReveal");
   leftreveal.forEach(function (e) {
-    if (e.getBoundingClientRect().top < 650) {
+    if (
+      e.getBoundingClientRect().top - document.documentElement.clientHeight <
+      -100
+    ) {
       e.classList.add("reveal");
     } else {
       e.classList.remove("reveal");
@@ -152,7 +164,10 @@ window.onscroll = function () {
   });
   let holereveal = document.querySelectorAll(".hReveal");
   holereveal.forEach(function (e) {
-    if (e.getBoundingClientRect().top < 650) {
+    if (
+      e.getBoundingClientRect().top - document.documentElement.clientHeight <
+      -100
+    ) {
       e.classList.add("reveal");
     } else {
       e.classList.remove("reveal");
